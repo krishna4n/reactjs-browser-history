@@ -1,0 +1,51 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vw;
+  width: 100vw;
+  font-family: Roboto;
+}
+.nav-container {
+  background-color: #3367d6;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 40% 0px 10%;
+}
+.input-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.app-logo {
+  height: 25px;
+  margin: 5px 0px 5px 0px;
+}
+.search-image-container {
+  width: 22px;
+  height: 22px;
+  background-color: #2850a7;
+  margin-right: 2px;
+  text-align: center;
+}
+.search-image {
+  width: 15px;
+  height: 15px;
+}
+.input-search {
+  background-color: #2850a7;
+  border: none;
+  outline: none;
+  height: 22px;
+  color: #ececec;
+  font-size: 12px;
+}
+.card {
+  box-shadow: 5px 2px 20px 2px #bfbfbfbf;
+  margin: 4%;
+  border-radius: 10px;
+}
+.browser-history-container {
+  list-style-type: none;
+}

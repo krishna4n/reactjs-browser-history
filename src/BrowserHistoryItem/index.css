@@ -1,0 +1,21 @@
+.history-item-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 40px 5px 40px;
+  text-align: left;
+}
+.domain-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0px 20% 0px 20%;
+}
+.domain-logo {
+  width: 20px;
+}
+.button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
